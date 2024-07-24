@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <input type="button" value="EMPLEADOS" onclick="todos()">
+
+    <form method="get">
+        <label for="id">Id:</label>
+        <br>
+        <input type="text" name="id">
+        <br>
+        <input type="button" value="PERSONAS POR ID" onclick="empleadosId()">
+    </form>
+    <form method="post">
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input type="text" name="nombre">
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <br>
+        <input type="text" name="apellidos">
+        <br>
+        <label for="trabaja_desde">trabaja_desde:</label>
+        <br>
+        <input type="text" name="trabaja_desde">
+        <br>
+        <input type="button" value="INSERT" onclick="empleados_insert()">
+    </form>
+    <form>
+        <form method="DELETE">
+            <label for="id">Id:</label>
+            <br>
+            <input type="text" name="id">
+            <br>
+            <input type="button" value="BORRAR PERSONAS POR ID" onclick="empleadosIddelete()">
+        </form>    
+    
+        <form>
+            <form method="PUT">
+                <label for="id">Id:</label>
+                <br>
+                <input type="text" name="id">
+                <br>
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" name="nombre">
+                <br>
+                <input type="button" value="ACTUALIZAR PERSONAS POR ID" onclick="empleadosIdupdate()">
+            </form> 
+</body>
+</html>

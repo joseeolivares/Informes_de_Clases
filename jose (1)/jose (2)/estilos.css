@@ -1,0 +1,92 @@
+
+.contacto  {
+    background-color: #FFDF2B;
+    font-family: "Freeman", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: small;
+    font-style: bold;
+   }
+  
+
+.barra-busqueda {
+  color: #FFDF2B;
+  font-family: "Freeman", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-around;
+}
+
+#inicio-contactos {
+  background-color: rgb(95, 94, 94);
+  padding: 20px ;
+  color: yellow;
+  font-family: "Freeman", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  display: flex;
+  justify-content: left;
+}
+
+.linea {
+  text-align: center;
+ border-color: gray;
+ border: gray;
+ color: rgb(86, 85, 85)
+  
+}
+
+.contacto h1 {
+  text-align: center;
+  color: rgb(86, 85, 85)
+ 
+}
+
+.biografia {
+  background-color: #FFDF2B;
+  font-family: "Freeman", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: xx-large;
+  font-style: bold;
+ } 
+
+ .pie {
+  text-align: center;
+ }
+
+ .portafolio {
+  background-color: #FFDF2B;
+  font-family: "Freeman", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: small;
+  font-style: bold;
+ } 
+
+ #inicio-portafolio {
+  background-color: rgb(95, 94, 94);
+  padding: 20px ;
+  color: yellow;
+  font-family: "Freeman", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  display: flex;
+  justify-content: left;
+}
+
+.bio-h2  {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+  
+
